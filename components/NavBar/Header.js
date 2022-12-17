@@ -176,11 +176,11 @@ const Header = ({ navBarTitle, fullWidth }) => {
         <div className='flex items-center'>
           <Link passHref href='/' scroll={false}>
             <a aria-label={BLOG.title}>
-              <motion.div className='h-6 hover:text-blue-500 dark:hover:text-blue-500 fill-current'>
+              <motion.div className='h-6 hover:text-blue-400 dark:hover:text-blue-400 fill-current'>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width='50'
-                  height='50'
+                  width='70'
+                  height='70'
                   viewBox="0 0 150 150"
                 >
                   <g transform='translate(0.000000,100) scale(0.100000,0.100000)'>
