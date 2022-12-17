@@ -179,8 +179,8 @@ const Header = ({ navBarTitle, fullWidth }) => {
               <motion.div className='h-6 hover:text-blue-500 dark:hover:text-blue-500 fill-current'>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width='50'
-                  height='50'
+                  width='40'
+                  height='40'
                   viewBox="0 0 100 100"
                 >
                   <g transform='translate(0.000000,10) scale(0.100000,0.100000)'>
