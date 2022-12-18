@@ -91,7 +91,7 @@ const NavBar = () => {
       </ul>
 
       <ThemeSwitcher />
-      <LangSwitcher />
+      // <LangSwitcher />
 
       {/* Mobile Phone Menu */}
       <div className='md:hidden mr-2 block '>
