@@ -49,7 +49,9 @@
     },
     {
       "redirects": [
-        { "source": "/book", "destination": "[https://book.yau.my.id](https://book.yau.my.id)" }
+        {
+          "source": "https://yau.my.id/book", "destination": "[https://book.yau.my.id](https://book.yau.my.id)" 
+        }
       ]
     }
   ]
