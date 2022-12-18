@@ -45,7 +45,7 @@ const Footer = ({ fullWidth }) => {
     {
       id: 2,
       name: t.NAV.BOOKS,
-      to: '/books',
+      to: 'https://book.yau.my.id',
       icon: <BookOpenIcon className='inline-block mb-1 h-5 w-5' />,
       show: true
     },
