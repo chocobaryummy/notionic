@@ -61,7 +61,7 @@ export async function getStaticPaths() {
   // }
 }
 
-export async function getStaticProps({ params: { subpage } }) {
+export async function getStaticProps({ params: { subpage } })
   const posts = await getAllPosts({ onlyNewsletter: false })
 
   let blockMap, post
