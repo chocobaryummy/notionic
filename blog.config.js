@@ -5,11 +5,11 @@ const BLOG = {
   link: 'https://yau.my.id',
   newsletter: 'Weekly Newsletter',
   description: 'I am textrovert',
-  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
+  lang: 'id-ID', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#F6F8FA', // use hex value, don't forget '#' e.g #fffefc
-  darkBackground: '#212936', // use hex value, don't forget '#'
+  darkBackground: '#222223', // use hex value, don't forget '#'#222223 #212936
   path: '', // leave this empty unless you want to deploy Notionic in a folder
   since: 2022, // If leave this empty, current year will be used.
   postsPerPage: 10,
