@@ -10,7 +10,7 @@ const Avatar = (props) => (
     }}
     {...props}
   >
-    {/*<image x='0' y='0' width='100%' height='100%' clip-path='url(#shape)' href='https://' preserveAspectRatio='none'></image>*/}
+    {/* <image x='0' y='0' width='100%' height='100%' clip-path='url(#shape)' href='https://' preserveAspectRatio='none'></image> */}
     <path id='blob' fill='violet'
       style={{
         opacity: '0.02'
