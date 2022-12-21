@@ -15,7 +15,7 @@ module.exports = {
     return config
   },
   i18n: {
-    locales: ['en', 'zh', 'id-ID'],
+    locales: ['en', 'zh'],
     defaultLocale: 'en',
     localeDetection: false
   },
