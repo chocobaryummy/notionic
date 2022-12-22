@@ -8,7 +8,7 @@ const BLOG = {
   lang: 'id-ID', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
-  lightBackground: '#dddfe1', // use hex value, don't forget '#' e.g #fffefc
+  lightBackground: '#eaf2f2', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#222223', // use hex value, don't forget '#'#222223 #212936
   path: '', // leave this empty unless you want to deploy Notionic in a folder
   since: 2022, // If leave this empty, current year will be used.
