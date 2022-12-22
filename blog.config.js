@@ -23,7 +23,9 @@ const BLOG = {
   socialLink: {
     twitter: 'https://twitter.com/bmbarik',
     github: 'https://github.com/chocobaryummy',
-    telegram: 'https://t.me/bmbarik'
+    telegram: 'https://t.me/bmbarik',
+    kofi: 'https://ko-fi.com/N4N3FYZ80',
+    trakteer: 'https://trakteer.id/baarik'
   },
   seo: {
     keywords: ['Notionic', 'Notion', 'Blog', 'Notion Website', 'Yaumy'],
