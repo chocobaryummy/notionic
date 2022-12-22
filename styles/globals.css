@@ -24,7 +24,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 ::selection {
-  background: rgba(45, 170, 219, 0.3);
+  background: rgba(57, 45, 219, 0.644);
 }
 
 .sticky-nav {
