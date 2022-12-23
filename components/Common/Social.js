@@ -40,7 +40,7 @@ const Social = () => {
           </svg>
         </a>
       </Link>
-      <Link href={`${BLOG.socialLink.github}`} scroll={false}> 
+      <Link href={`${BLOG.socialLink.github}`} scroll={false}>
         <a
           target='_blank' aria-label='Github'
           className='text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100'
