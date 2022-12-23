@@ -25,7 +25,7 @@ const BLOG = {
     github: 'https://github.com/chocobaryummy',
     telegram: 'https://t.me/bmbarik',
     kofi: 'https://ko-fi.com/N4N3FYZ80',
-    trakteer: 'https://trakteer.id/baarik'
+    trakteer: 'https://trakteer.id/baarik/tip'
   },
   seo: {
     keywords: ['Notionic', 'Notion', 'Blog', 'Notion Website', 'Yaumy'],
