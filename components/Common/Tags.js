@@ -12,8 +12,8 @@ const Tags = ({ tags, currentTag }) => {
               key={key}
               className={`m-1 font-medium rounded-lg whitespace-nowrap hover:text-gray-100 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-700 ${
                 selected
-                  ? 'text-gray-100 bg-gray-400 dark:bg-gray-600'
-                  : 'text-gray-400 bg-gray-100 dark:bg-night'
+                  ? 'text-gray-100 bg-gray-300 dark:bg-gray-900'
+                  : 'text-gray-400 bg-gray-300 dark:bg-gray-900'
               }`}
             >
               <Link key={key} scroll={false}
