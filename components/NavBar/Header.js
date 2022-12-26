@@ -98,12 +98,12 @@ const NavBar = () => {
         <button
           type='button' aria-label='Menu'
           onClick={() => setShowMenu((showMenu) => !showMenu)}
-          className='hover:bg-gray-300 dark:hover:bg-gray-900 cursor-pointer rounded-lg block p-2 -mr-3 md:pb-3'
+          className='hover:bg-gray-200 dark:hover:bg-gray-700 cursor-pointer rounded-lg block p-2 -mr-3 md:pb-3'
         >
           <MenuIcon className='inline-block mb-1 h-5 w-5' />
         </button>
         {showMenu && (
-          <div className='absolute right-0 w-57 mr-4 mt-2 origin-top-right bg-gray-300 dark:bg-gray-900 divide-y divide-gray-300 dark:divide-gray-900 rounded-md shadow-lg outline-none'>
+          <div className='absolute right-0 w-57 mr-4 mt-2 origin-top-right bg-gray-300 dark:bg-gray-900 divide-y divide-gray-200 dark:divide-gray-700 rounded-md shadow-lg outline-none'>
             <div className='py-1'>
               {links.map(
                 (link) =>
@@ -111,7 +111,7 @@ const NavBar = () => {
                     <Link passHref key={link.id} href={link.to} scroll={false}>
                       <a
                         onClick={() => setShowMenu((showMenu) => !showMenu)}
-                        className='hover:bg-gray-300 dark:hover:bg-gray-900 font-light block justify-between w-full px-6 py-2 leading-5'
+                        className='hover:bg-gray-300 dark:hover:bg-gray-800 font-light block justify-between w-full px-7 py-2 leading-5'
                       >
                         {link.icon}
                         <span className='m-1'>{link.name}</span>
