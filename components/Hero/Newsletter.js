@@ -75,7 +75,7 @@ const NewsletterHero = ({ blockMap }) => {
             ) : (
               <button
                 onClick={() => clickCopy()}
-                className='bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 inline-flex py-3 px-5 rounded-lg items-center'
+                className='bg-gray-300 dark:bg-gray-900 hover:bg-gray-200 dark:hover:bg-gray-700 inline-flex py-3 px-5 rounded-lg items-center'
               >
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
