@@ -8,8 +8,8 @@
 .notion-text,
 .notion-quote,
 .notion-h-title {
-  @apply leading-10;
-  @apply leading-center;
+  @apply leading-15;
+  @apply text-center;
   @apply text-justify;
   @apply p-0;
   @apply my-3;
