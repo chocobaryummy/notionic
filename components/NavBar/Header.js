@@ -103,7 +103,7 @@ const NavBar = () => {
           <MenuIcon className='inline-block mb-1 h-5 w-5' />
         </button>
         {showMenu && (
-          <div className='absolute right-0 w-57 mr-4 mt-2 origin-top-right bg-white dark:bg-gray-700 divide-y divide-gray-200 dark:divide-gray-600 rounded-md shadow-lg outline-none'>
+          <div className='absolute right-0 w-57 mr-4 mt-2 origin-top-right bg-gray-300 dark:bg-gray-900 divide-y divide-gray-300 dark:divide-gray-900 rounded-md shadow-lg outline-none'>
             <div className='py-1'>
               {links.map(
                 (link) =>
