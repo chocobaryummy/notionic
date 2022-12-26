@@ -2,9 +2,9 @@ const BLOG = {
   title: 'YAU.MY',
   author: 'Barik',
   email: 'barik@my.id',
-  link: 'https://chocobaryummy-vigilant-memory-r9gqqrwpxv43pq6w-3000.preview.app.github.dev',
+  link: 'https://yau.my.id',
   newsletter: 'Weekly Newsletter',
-  description: 'I am textrovert',
+  description: 'Welcome to My Blog',
   lang: 'id-ID', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
@@ -28,7 +28,7 @@ const BLOG = {
     trakteer: 'https://trakteer.id/baarik/tip'
   },
   seo: {
-    keywords: ['Notionic', 'Notion', 'Blog', 'Notion Website', 'Yaumy'],
+    keywords: ['Notionic', 'Notion', 'Blog', 'Notion Website', 'Yaumy', 'Indonesia'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS! Edit .env file!
