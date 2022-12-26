@@ -3,13 +3,14 @@
 .notion {
   @apply text-gray-600 dark:text-gray-300;
   overflow-wrap: break-word;
+  @apply text-center;
 }
 .notion,
 .notion-text,
 .notion-quote,
 .notion-h-title {
   @apply leading-10;
-  @apply text-center;
+  @apply text-justify;
   @apply p-0;
   @apply my-3;
 }
