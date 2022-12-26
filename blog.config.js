@@ -2,13 +2,13 @@ const BLOG = {
   title: 'YAU.MY',
   author: 'Barik',
   email: 'barik@my.id',
-  link: 'https://yau.my.id',
+  link: 'https://chocobaryummy-vigilant-memory-r9gqqrwpxv43pq6w-3000.preview.app.github.dev',
   newsletter: 'Weekly Newsletter',
   description: 'I am textrovert',
   lang: 'id-ID', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
-  lightBackground: '#eaf2f2', // use hex value, don't forget '#' e.g #fffefc
+  lightBackground: '#fffefc', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#222223', // use hex value, don't forget '#'#222223 #212936
   path: '', // leave this empty unless you want to deploy Notionic in a folder
   since: 2022, // If leave this empty, current year will be used.
