@@ -41,7 +41,7 @@ const BLOG = {
   telegramChannelName: '', // The name of your Telegram channel, zuolan_me
   craftConfigShareUrl: 'https://www.craft.do/s/3E7InAGkVpHUdu', // The link to share your craft config
   analytics: {
-    provider: '', // Currently we support Google Analytics, Ackee and Umami, please fill with 'ga' or 'ackee' or 'umami', leave it empty to disable it.
+    provider: 'ga', // Currently we support Google Analytics, Ackee and Umami, please fill with 'ga' or 'ackee' or 'umami', leave it empty to disable it.
     umamiConfig: {
       scriptUrl: '', // The url of your Umami script
       websiteId: '' // The website id of your Umami instance
@@ -52,7 +52,7 @@ const BLOG = {
       domainId: '' // e.g '0e2257a8-54d4-4847-91a1-0311ea48cc7b'
     },
     gaConfig: {
-      measurementId: '' // e.g: G-XXXXXXXXXX
+      measurementId: 'G-HME1F61VYZ' // e.g: G-XXXXXXXXXX
     }
   },
   comment: {
