@@ -111,7 +111,7 @@ const NavBar = () => {
                     <Link passHref key={link.id} href={link.to} scroll={false}>
                       <a
                         onClick={() => setShowMenu((showMenu) => !showMenu)}
-                        className='hover:bg-gray-300 dark:hover:bg-gray-800 font-light block justify-between w-full px-7 py-2 leading-5'
+                        className='hover:bg-gray-300 dark:hover:bg-gray-800 font-light block justify-between w-full px-4 py-2 leading-5'
                       >
                         {link.icon}
                         <span className='m-1'>{link.name}</span>

@@ -3,7 +3,7 @@ import BLOG from '@/blog.config'
 
 const Social = () => {
   return (
-    <div className='flex gap-4'>
+    <div className='flex gap-3'>
       <Link href={`${BLOG.socialLink.telegram}`} scroll={false}>
         <a
           target='_blank' aria-label='Telegram'
