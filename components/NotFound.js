@@ -28,7 +28,7 @@ const Page404 = ({ statusCode }) => {
             </svg>
           </div>
 
-          <p className='text-sm md:text-base font-semibold uppercase mb-4'>
+          <p className='text-sm md:text-base font-semibold uppercase mb-3'>
             {t.ERROR.MESSAGE}
           </p>
           <h1 className='text-2xl md:text-3xl font-bold text-center mb-2'>
